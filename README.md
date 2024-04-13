@@ -1,4 +1,4 @@
-![Screenshot 2024-04-11 143942](https://github.com/Vivekkumarv123/Codetool_Chrome_Extension/assets/164018649/ac88ecbe-87b9-4f36-838b-f1037952d8e8)# Codetool_Chrome_Extension
+Codetool_Chrome_Extension
 Chrome extenstion to help the software engineer in coding journey
 
 **Project Description: Codetool Chrome Extension**
