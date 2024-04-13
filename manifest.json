@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Codetool",
+  "version": "1.0",
+  "permissions": ["storage", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://mail.google.com/*", "*://docs.google.com/*", "*://github.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "chrome_url_overrides": {
+    "newtab": "homepage.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'",
+    "script-src": ["'self'", "https://kit.fontawesome.com", "https://code.jquery.com"]
+  }
+}

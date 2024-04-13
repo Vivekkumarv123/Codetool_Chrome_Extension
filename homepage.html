@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    
+    <video id="bgVideo" autoplay muted loop></video>
+    <div id="overlay" class="overlay"></div>
+    <div class="w"><div id="weatherInfo"></div>
+    <iframe src="timetrack.html" width="100%" height="200" frameborder="0"></iframe>
+
+    <div class="wrapper">
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-icon" onclick="toggleSidebar()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="#" id="pomo"><i class="fas fa-clock"></i>
+                    <span>Pomodoro Timer</span></a></li>                
+                <li><a href="#" id="todo""><i class="fas fa-list"></i> <span>Todo List</span></a></li>
+                <li><a href="#" id="chrome""><i class="fab fa-chrome"></i> <span>Chrome Launch</span></a>
+                </li>
+                <li><a href="#" id="mail""><i class="far fa-envelope"></i><span>Gmail</span></a></li>
+                <li><a href="#" id="gpt""><i class="fas fa-robot"></i> <span>ChatGPT</span></a></li>
+                <li><a href="#" id="word""><i class="fas fa-file-word "></i> <span>Google Docs.</span></a>
+                </li>
+                <li><a href="#" id="coursera""><i class="fas fa-graduation-cap"></i> <span>Coursera
+                            Link</span></a></li>
+
+                <li><a href="#" id="gdb""><i class="fas fa-code"></i> <span>GDB Compiler</span></a></li>
+                <li><a href="#" id="sp""><i class="fab fa-spotify"></i> <span>Spotify</span></a></li>
+                <li><a href="#" id="github""><i class="fab fa-github"></i><span>Github</span></a></li>
+                <li><a href="#" id="whatsapp""><i class="fab fa-whatsapp"></i><span>Whatsapp</span></a></li>
+                <li><a href="#" id="youtube""><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+                <li><a href="#" id="translator""><i class="fas fa-language"></i><span>Translator</span></a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="greet" id="greetingHeading"></div>
+            <div id="currentTime"></div>
+            <div class="dd" id="currentDay"></div><br>
+            <div class="quote" id="quote"></div>
+            <div class="quiz" id="quiz-container">
+
+            </div><br>
+            <footer>@Made By Vivek Kumar Verma</footer>
+        </div>
+        <script src="pomo.js"></script>
+        <script src="progress.js"></script>
+        <script src="chrome.js"></script>
+        <script src="email.js"></script>
+        <script src="gpt.js"></script>
+        <script src="word.js"></script>
+        <script src="coursera.js"></script>
+        <script src="gbd.js"></script>
+        <script src="spotify.js"></script>
+        <script src="github.js"></script>
+        <script src="whatsapp.js"></script>
+        <script src="youtube.js"></script>
+        <script src="translator.js"></script>
+        <script src="wheather.js"></script>
+        <script src="random_bg.js"></script>
+        <script src="random_quote.js"></script>
+        <script src="random_quiz.js"></script>
+        <script src="time.js"></script>
+</body>
+
+</html>

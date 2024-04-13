@@ -1,0 +1,116 @@
+  /* General CSS */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2 {
+    color: #f65924;
+    text-align: center;
+    margin-top: 20px;
+  }
+  h1{
+    font-size: 50px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  
+  button, select {
+    background-color: #4CAF50;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  /* Form CSS */
+  #taskForm {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+
+  input[type="text"],
+  select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #444;
+    color: #eee;
+  }
+
+  button#saveTaskBtn {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button#saveTaskBtn:hover {
+    background-color: #005F6B;
+  }
+
+  /* Table CSS */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #555;
+    color: #fff;
+  }
+
+  td a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+
+  td a:hover {
+    text-decoration: underline;
+  }
+
+  .delete-task {
+    color: #ff0000;
+    cursor: pointer;
+  }
+
+  .delete-task:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Noto+Serif+KR&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins&family=Reddit+Mono:wght@200..900&family=Sansita+Swashed:wght@300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('a.jpeg');
+            background-size: cover;
+            background-position: initial;
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+
+        h1,
+        p {
+            color: #fff;
+            font-family: "Source Code Pro", monospace;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h1 {
+            font-size: 70px;
+            font-family: "Sansita Swashed", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        p {
+            font-size: 30px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        button {
+            width: 30%;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            padding: 12px 20px;
+            margin-bottom: 15px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:hover,
+        input[type="text"]:focus,
+        input[type="email"]:hover,
+        input[type="email"]:focus {
+            border: 5px solid red;
+        }
+
+        button {
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            text-align: center;
+            padding-left: 40px;
+            background-position: left center;
+            background-repeat: no-repeat;
+            background-color: rgb(5, 179, 115);
+            color: #fff;
+        }
+
+        button:hover {
+            background-color: rgba(7, 91, 72);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer {
+            font-family: "Julius Sans One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: aquamarine;
+        }

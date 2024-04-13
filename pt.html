@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Progress Tracker</title>
+<link rel="stylesheet" href="pt.css">
+</head>
+<body>
+
+<h1>Progress Tracker</h1>
+
+<button id="addTaskBtn">Add Task</button>
+
+<div id="taskForm" style="display:none;">
+  <label for="taskName">Task Name:</label>
+  <input type="text" id="taskName">
+  <label for="taskLevel">Level:</label>
+  <select id="taskLevel">
+    <option value="🟢Easy">🟢Easy</option>
+    <option value="🟡Medium">🟡Medium</option>
+    <option value="🟠Hard">🟠Hard</option>
+  </select>
+  <label for="taskStatus">Status:</label>
+  <select id="taskStatus">
+    <option value="⌛Doing">⌛Doing</option>
+    <option value="✅Done">✅Done</option>
+  </select>
+  <label for="taskLink">Link:</label>
+  <input type="text" id="taskLink">
+  <button id="saveTaskBtn">Save</button>
+</div>
+
+<h2>Tasks</h2>
+<table id="taskTable">
+  <thead>
+    <tr>
+      <th>Task Name</th>
+      <th>Level</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Tasks will be dynamically added here -->
+  </tbody>
+</table>
+
+<script src="jquery-3.6.0.min.js"></script>
+<script src="pt.js"></script>
+
+</body>
+</html>
